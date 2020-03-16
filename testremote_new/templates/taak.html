@@ -1,0 +1,21 @@
+<form id="taak_form" method="post" action="api/index.php/taken">
+
+    <input type="hidden" id="formname" name="formname" value="taak_form">
+    <input type="hidden" id="tablename" name="tablename" value="taak">
+    <input type="hidden" id="pkey" name="pkey" value="taa_id">
+
+    <div class="form-group row">
+        <label for="taa_datum" class="col-form-label">Datum</label>
+        <input type="date" class="form-control" id="taa_datum" name="taa_datum" value="">
+    </div>
+
+    <div class="form-group row">
+        <label for="taa_omschr" class="col-form-label">Omschrijving</label>
+        <input type="text" class="form-control" id="taa_omschr" name="taa_omschr" value="">
+    </div>
+
+    <input name="registerbutton" type="submit" value="Register">
+
+    <div class="vertical_space_10vh"></div>
+
+</form>
